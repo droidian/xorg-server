@@ -1,5 +1,5 @@
 Source: glamor-hybris
-Priority: medium
+Priority: extra
 Maintainer: TheKit <nekit1000@gmail.com>
 Build-Depends: debhelper (>= 9.0.0),
                autotools-dev,
