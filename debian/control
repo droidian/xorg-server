@@ -1,0 +1,28 @@
+Source: glamor-hybris
+Priority: medium
+Maintainer: TheKit <nekit1000@gmail.com>
+Build-Depends: debhelper (>= 9.0.0),
+               autotools-dev,
+               dh-autoreconf,
+               xserver-xorg-dev,
+               libxi-dev,
+               drihybris-dev,
+               libepoxy-dev
+Standards-Version: 3.9.8
+Section: libs
+Homepage: https://github.com/gemian/glamor-hybris
+Vcs-Git: https://github.com/gemian/glamor-hybris.git
+
+Package: glamor-hybris1
+Architecture: armhf arm64 i386 amd64
+Depends: ${shlibs:Depends},
+         ${misc:Depends}
+Description: glamor Xserver 2D acceleration modified to work with libhybris drivers.
+
+Package: glamor-hybris-dev
+Section: libdevel
+Architecture: armhf arm64 i386 amd64
+Depends: libandroid-properties1 (= ${binary:Version}),
+         ${misc:Depends}
+Description: Development headers files for glamor-hybris
+ Contains the development files.

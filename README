@@ -1,2 +1,2 @@
-DRIHYBRIS - custom DRI3-based Xorg extension, which allows sharing Android
-gralloc-allocated buffers through libhybris.
+Glamor Xserver 2D acceleration, modified to work with libhybris drivers 
+
