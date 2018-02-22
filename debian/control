@@ -1,19 +1,23 @@
 Source: glamor-hybris
 Priority: extra
 Maintainer: TheKit <nekit1000@gmail.com>
-Build-Depends: debhelper (>= 9.0.0),
-               autotools-dev,
-               dh-autoreconf,
+Build-Depends: debhelper (>= 10),
+               pkg-config,
                xserver-xorg-dev,
                libxi-dev,
+               x11proto-video-dev,
+               x11proto-randr-dev,
+               x11proto-render-dev,
+               xutils-dev,
                drihybris-dev,
-               libepoxy-dev
+               libepoxy-dev,
+               libhybris-dev
 Standards-Version: 3.9.8
 Section: libs
 Homepage: https://github.com/gemian/glamor-hybris
 Vcs-Git: https://github.com/gemian/glamor-hybris.git
 
-Package: glamor-hybris1
+Package: glamor-hybris
 Architecture: armhf arm64 i386 amd64
 Depends: ${shlibs:Depends},
          ${misc:Depends}
