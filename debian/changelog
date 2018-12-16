@@ -1,3 +1,9 @@
+glamor-hybris (0.2.0+gemian1) stretch; urgency=medium
+
+  * Support exporting hybris buffers for pixmaps
+
+ -- TheKit <nekit1000@gmail.com>  Sun, 16 Dec 2018 23:29:16 +0100
+
 glamor-hybris (0.1.0+gemian1) stretch; urgency=medium
 
   * Branched for gemian
