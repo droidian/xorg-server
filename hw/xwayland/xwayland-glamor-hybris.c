@@ -151,7 +151,7 @@ xwl_glamor_hybris_create_pixmap(ScreenPtr screen,
         (hint == 0 ||
          hint == CREATE_PIXMAP_USAGE_BACKING_PIXMAP ||
          hint == CREATE_PIXMAP_USAGE_SHARED)) {
-        int m_format = HYBRIS_PIXEL_FORMAT_RGBA_8888;
+        int m_format = HYBRIS_PIXEL_FORMAT_BGRA_8888;
         EGLint stride = 0;
 
         EGLClientBuffer buf;
